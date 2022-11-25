@@ -5,6 +5,13 @@ public class Main {
 //        zaloga.run(); // to dziala ale nie tak jakbym tego chcial
 //        permutacje.permutacje(0); // a to juz nie pamietam czy dziala
 //        LosowanieLiczb.run();
-        wydawanieReszty.run();
+//        wydawanieReszty.run();
+//        plecakowyAZ.run();
+//        plecakPD.run();
+//        kosmonauciAZ.run(); // Dobry kurwa jezu jak ja to ogarne to jestem gigakoxem
+//        NewtonPD.run();
+//        krolikiDZ.run();
+//        lodyAZ.run();
+        newtonRek.run();
     }
 }
