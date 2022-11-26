@@ -12,6 +12,14 @@ public class Main {
 //        NewtonPD.run();
 //        krolikiDZ.run();
 //        lodyAZ.run();
-        newtonRek.run();
+//        newtonRek.run();
+//        figura.run();
+//        bakteriePD.run();
+//        zalogaAZ.run(); // no jak to dziala i ma mniej kodu
+//        plecakDZ.run();
+//        zgadywanieMC.run();
+//        lososieDZ.run();
+//        pandemiaDZ.run();
+//        drogaAZ.run();
     }
 }

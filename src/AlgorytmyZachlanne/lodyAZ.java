@@ -15,36 +15,35 @@ public class lodyAZ {
         boolean[] wybrane = new boolean[smaki];
 //        wybrane[0]=true;
 
-        int min = Integer.MAX_VALUE;
+        int min;
         int czas = 0;
         int pos = 0;
         int tmp = 0;
-        int count = 0;
+        int count=0;
+        int tmp2;
 
         while(true){
-            wybrane[pos]=true;
-            if(count==smaki) break;
-            for(int i=0; i<smaki; i++) {
-                if (czasy[pos][i] <= min && !wybrane[i]) {
-                    min = czasy[pos][i];
-                    tmp = i;
-                }
-            }
-            if(count == smaki-1) min = czasy[pos][0];
-            pos = tmp;
-            System.out.printf("Pozycja: %d | Czas: %d \n", pos, min);
-            czas+=min;
+            tmp2 = pos;
+            if(count==6) break;
             min = Integer.MAX_VALUE;
-            count++;
+            if(!wybrane[pos]) {
+                for (int i = 0; i < smaki; i++) {
+                    if (czasy[pos][i] <= min && czasy[pos][i] != 0) {
+                        min = czasy[pos][i];
+                        tmp = i;
+                    }
+                }
+                count++;
+            }
+            czas+=min;
+            pos = tmp;
         }
-
-
 
 //        System.out.println("Rozwiazanie: ");
 //        for(int i=0; i<smaki; i++){
 //            System.out.print(rozw[i] + " ");
 //        }
-        System.out.print("\n Czas: " + czas);
+        System.out.print("Czas: " + czas);
 
     }
 
