@@ -1,3 +1,4 @@
+package MonteCarlo;
 import java.util.Random;
 
 public class zgadywanieMC {

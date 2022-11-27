@@ -1,3 +1,5 @@
+package ProgramowanieDynamiczne;
+
 public class NewtonPD {
     final static int N = 5;
     final static int K = 3;

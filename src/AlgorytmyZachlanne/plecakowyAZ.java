@@ -1,3 +1,6 @@
+package AlgorytmyZachlanne;
+
+
 public class plecakowyAZ {
     final static int N = 6;
     final static int MAX_V = 10;

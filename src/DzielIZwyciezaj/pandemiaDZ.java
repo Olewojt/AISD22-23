@@ -1,3 +1,5 @@
+package DzielIZwyciezaj;
+
 public class pandemiaDZ {
     static int ludzie = 100000;
     static int chorzy = 10;

@@ -1,3 +1,5 @@
+package AlgorytmyZachlanne;
+
 import java.util.ArrayList;
 
 public class kosmonauciAZ {

@@ -1,3 +1,6 @@
+package AlgorytmyZachlanne;
+
+
 public class zalogaAZ {
 
     static int zaloganci = 5;

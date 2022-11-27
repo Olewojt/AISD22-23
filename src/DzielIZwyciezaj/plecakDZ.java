@@ -1,3 +1,5 @@
+package DzielIZwyciezaj;
+
 public class plecakDZ {
     final static int N = 6;                // liczba przedmiotow
     final static int MAX_V = 10;           // objetosc plecaka

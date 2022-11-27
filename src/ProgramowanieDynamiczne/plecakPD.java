@@ -1,3 +1,5 @@
+package ProgramowanieDynamiczne;
+
 public class plecakPD {
 
     final static int N = 6;                // liczba przedmiotów

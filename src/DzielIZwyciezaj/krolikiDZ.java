@@ -1,3 +1,5 @@
+package DzielIZwyciezaj;
+
 public class krolikiDZ {
 //    Fib(n) = { 1 dla n=1
 //             { 1 dla n=2
