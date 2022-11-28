@@ -24,11 +24,11 @@ public class Main {
 //        zgadywanieMC.run();
 //        lososieDZ.run();
 //        pandemiaDZ.run();
-        drogaAZ.run();
+//        drogaAZ.run();
 //        figuraMC.run();
 //        krolikiPD.run();
 //        zalogaMC.run();
-//        pandemiaPD.run();
+        pandemiaPD.run();
 //        filipLososie.run();
     }
 

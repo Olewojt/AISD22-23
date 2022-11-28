@@ -7,7 +7,7 @@ public class pandemiaPD {
         int dni=1;
         chorzy[1]=10;
         while(true){
-            if(chorzy[dni]<0) {
+            if(chorzy[dni]<=0) {
                 chorzy[dni]=0;
                 break;
             };
@@ -21,7 +21,7 @@ public class pandemiaPD {
             }
             System.out.println("Dzien: "+dni);
             System.out.println("Chorzy: "+chorzy[dni]);
-            if(dni>7) System.out.println("Chorzy tydzien temu: "+chorzy[dni-8]+ "\n");
+            if(dni>7) System.out.println("Chorzy tydzien temu: "+chorzy[dni-7]+ "\n");
         }
         System.out.println("Dni: "+(dni));
         for(int i=1; i<dni; i++){
